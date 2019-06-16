@@ -7,7 +7,7 @@ version = v"1.6.1"
 
 sources = [
     "https://files.dyne.org/frei0r/frei0r-plugins-1.6.1.tar.gz" =>
-    "af00bb5a784e7c9e69f56823de4637c350643deedaf333d0fa86ecdba6fcb415",
+    "e0c24630961195d9bd65aa8d43732469e8248e8918faa942cfb881769d11515e",
 ]
 
 # Bash recipe for building across all platforms
