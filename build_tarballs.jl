@@ -14,7 +14,7 @@ sources = [
 script = raw"""
 cd $WORKSPACE/srcdir
 cd frei0r-plugins-1.6.1/
-./configure --prefix=$prefix --host=$target
+cmake -DCMAKE_INSTALL_PREFIX=$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain
 make -j${ncore}
 make install
 exit
